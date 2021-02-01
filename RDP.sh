@@ -1,7 +1,7 @@
 #! /bin/bash
 printf "Installing RDP Be Patience... " >&2
 {
-sudo useradd -m ALOK
+sudo useradd -m VISHAL
 sudo adduser VISHAL sudo
 echo 'VISHAL:0000' | sudo chpasswd
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
